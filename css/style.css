@@ -1,6 +1,4 @@
-header{
-    color: #C4C4C4;
-}
+
 
 body{
     font-family: Arial, Verdana;
@@ -16,11 +14,12 @@ h1{
 }
 
 h2{
-    color: 30px #0D0D0D;
+    color: #0D0D0D;
+    font-size: 30px;
+
 }
 
 p{
-    color: #C4C4C4;
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
@@ -29,16 +28,13 @@ p{
 img{
     width: 250px;  
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /*#7 did i make it centered above*/
+    margin: auto;
     border: 10px dashed white;
 }
 
 div{
-
-    height: 150px;
-    padding: 20px 20px 20px 20px;
+    min-height: 125px;
+    padding: 20px;
     border: 3px solid white;
 }
 
@@ -46,7 +42,6 @@ div{
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
-    /* did line height make it double spaced*/
 
 }
 
@@ -54,44 +49,55 @@ div{
     background-color:#ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: solid 2px;
+    border-left: solid 5px;
+    border:none;
+    
 }
 
 .blue{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
-/*I dont think this work*/
+    border-right: solid 5px;
+    border-top: solid 2px;
+    border:none;
+}
+.blue h2, .blue p{
+    color:#C4C4C4;
 }
 
 .yellow{
     background-color: #ffff00;
-    color: #707070;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border:none;
+    border-bottom: solid 2px;
+    border-left: solid 5px;
+}
+.yellow p{
+    color: #707070;
 }
 
 .green{
-    background-color: #00D800;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border:none;
+    border-right: solid 5px;
+    border-top: solid 2px;
 }
 
 footer{
-    /*help with the color thing*/
     border: 5px solid white;
     text-align: right;
+    background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000 );
+
+}
+footer p{
     font-size: 20px;
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;;
-
 }
 
