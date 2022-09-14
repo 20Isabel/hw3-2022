@@ -1,3 +1,7 @@
+header{
+    color: #C4C4C4;
+}
+
 body{
     font-family: Arial, Verdana;
     background:#000000;
@@ -16,6 +20,7 @@ h2{
 }
 
 p{
+    color: #C4C4C4;
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
@@ -64,6 +69,7 @@ div{
 
 .yellow{
     background-color: #ffff00;
+    color: #707070;
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px;
